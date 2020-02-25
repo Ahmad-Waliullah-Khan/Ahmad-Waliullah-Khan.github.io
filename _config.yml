@@ -1,0 +1,28 @@
+# ----------- CONFIGURABLE START -----------
+title:            "WiseKracker"
+description:      "Just another tattoed, cigarette smoking, awkward joke cracking funny man."
+url:              https://wisekracker.com # Site url, without a slash at the end.
+signoff:          "Mr. WiseKracker" # Your name
+facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
+google_analytics: UA-115956668-4 # Set tracking, remove from /javascripts/basic.js if unwanted.
+share:            true # Turn on twitter and facebook share buttons
+
+links:
+  - name:         wisekracks
+    url:          /
+    external:     false
+  - name:         apps
+    url:          /apps
+    external:     false
+  - name:         MJ
+    url:          /mj
+    external:     false
+  # - name:         Mr. WiseKracker
+  #   url:          /mr_wisekracker
+  #   external:     false
+# ------------ CONFIGURABLE END ------------
+
+permalink:        /posts/:title
+defaults:
+  - values:
+      layout: "default"
